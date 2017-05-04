@@ -14,7 +14,483 @@
 */
 
 
+<<<<<<< HEAD
 /* ================================================== SYS  ======================================= */
+=======
+
+#gallery img{
+
+}
+
+
+#gallery h5{
+font-family:Times New Roman;
+font-size:16px;
+font-weight:100;
+color:#777777;
+}
+
+
+#gallery h2{
+font-family:Arial;
+font-size:18px;
+text-align:center;
+}
+
+
+#gallery p{
+font-family:Times New Roman;
+font-size:14px;
+font-weight:100;
+color:#777777;
+text-align:center;
+}
+
+/*
+#gallery .col-md-4{
+  background:red;
+  border-style:solid;
+  border-color:green;
+}
+*/
+
+.left-column{
+  xxbackground:red;
+}
+
+.left-column>p,.left-column>h5{
+margin:0px !important;
+padding:0px !important;
+text-align:right;
+}
+
+
+.left-column>p, .right-column>p{
+  font-family:Times New Roman;
+  font-size: 16px;
+  color:color:#777777;
+}
+
+.left-column>h5, .right-column>h5{
+   font-family:Arial;
+  font-size: 18px;
+  font-weight:bold;
+  }
+
+
+
+.right-column{
+  xxbackground:red;
+}
+
+.right-column>p, .right-column>h5{
+margin:0px !important;
+padding:0px !important;
+text-align:left;
+}
+
+
+.vertical-line1{
+  color:transparent; 
+  width:3px; 
+  height:266px; 
+  background:#f1f1f1; 
+  text-align:center
+}
+
+
+.vertical-line2{
+  color:transparent; 
+  width:3px; 
+  height:106px; 
+  background:#f1f1f1; 
+  text-align:center
+}
+
+
+.circle-container{
+  xxbackground:red; 
+  text-align:center; 
+}
+
+.circle{
+  display:inline-block;
+  background:#fed136;
+   
+  padding:10px 0px; 
+  width:175px; 
+  border-style:solid; 
+  border-width:5px; 
+  border-color:#f1f1f1; 
+  border-radius: 150px; 
+
+}
+
+
+.circle p{
+  margin-top:10px;
+text-align:center;
+  font-family: Arial; 
+  font-weight: 400  ;
+  font-size: 18px; 
+  text-transform: uppercase;
+  color:white;
+}
+
+/* ================= Amazing team ======================= */
+#amazing-team{
+  background: #f9f9f9;
+}
+
+.team-memeber h3{
+font-family:Arial;
+font-size:16pt;
+font-weight:bold;
+}
+
+.team-memeber p{
+font-family:Arial;
+font-size:14pt;
+color:#777777;
+}
+
+.social-buttons-block{
+  display:block; 
+  xxbackground: green;
+}
+
+.social-menu{
+display: inline-block;
+padding:0px;
+xxbackground: red;
+}
+
+.social-menu li:first-child{
+  margin-left:0px;
+}
+
+
+.social-menu li{
+  display: inline;
+  float:left;
+
+  text-decoration: none;
+  list-style:none;
+  margin-left:10px;
+  xxtext-align:center;
+}
+
+.twitter-butt{
+  width:41px;
+  height:41px;
+background:url(../img/icons/social_buttons/Twitter.png);
+background-repeat: no-repeat;
+  }
+
+.twitter-butt:hover{
+  background:url(../img/icons/social_buttons/Twitter_hover.png);
+}
+
+
+.facebook-butt{
+  width:41px;
+  height:41px;
+background:url(../img/icons/social_buttons/Facebook.png);
+background-repeat: no-repeat;
+  }
+
+.facebook-butt:hover{
+  background:url(../img/icons/social_buttons/Facebook_hover.png);
+}
+
+
+.pinterest-butt{
+  width:41px;
+  height:41px;
+background:url(../img/icons/social_buttons/Pinterest.png);
+background-repeat: no-repeat;
+  }
+
+.pinterest-butt:hover{
+  background:url(../img/icons/social_buttons/Pinterest_hover.png);
+}
+
+
+.google-butt{
+  width:41px;
+  height:41px;
+background:url(../img/icons/social_buttons/Google.png);
+background-repeat: no-repeat;
+  }
+
+.google-butt:hover{
+  background:url(../img/icons/social_buttons/Google_hover.png);
+}
+
+
+.our-team-conclusion{
+  display: block;
+  width:100%;
+  text-align: center;
+  xxbackground: red;
+  margin-top:50px;
+}
+
+
+.our-team-conclusion p{
+  display: inline-block;
+  font-family:Times New Roman;
+  font-size:12pt;
+  color: #777777;
+  
+  width:50%;
+  xxbackground: green;
+}
+
+/* =========================== LOGOS ========================== */
+
+.logos-block{
+  display:block;
+}
+
+.logos-block ul{
+display:inline-block;
+padding:0px;
+}
+
+.logos-block li{
+  display: inline;
+  float:left;
+
+  text-decoration: none;
+  list-style:none;
+  margin-left:50px;
+}
+
+
+.logos-block li:first-child{
+  margin-left:0px;
+}
+/* ===================== Contact Us ========================= */
+
+#contact-us{
+  background:#222222;
+  background:url(../img/backgrounds/earth_map.png) #222222;
+  background-repeat: no-repeat;
+  background-position: 100% 120%;
+}
+
+#contact-us h1{
+  font-family:Arial;
+  font-size:39pt;
+  font-weight:bold;
+  text-transform: uppercase;
+  color:white;
+}
+
+#contact-us p{
+  color: #777777;
+   margin-bottom:80px;
+}
+
+.cotntact-us-form-block{
+  height:212px;
+  width:80%;
+  padding:0px;
+
+}
+
+.cotntact-us-form-block .submit-button{
+  background: #fed136;
+  padding:12px 25px;
+  font-family: Arial;
+  font-size: 24pt;
+  font-weight:bold;
+  text-transform: uppercase;
+  color:white;
+  border: none;
+  border-radius:3px;
+  margin-top:30px;
+ margin-bottom:116px;
+  }
+
+#contact-us .left-form{
+  float:left;
+  width:48%;
+  xxbackground: red;
+}
+
+#contact-us .left-form input{
+  width:100%;
+  height:50px;
+  margin-top:30px;
+  border-radius:6px;
+
+  font-family:Arial;
+  font-size:14pt;
+  font-weight:bold;
+  color: #777777;
+  text-indent: 20px;
+  text-transform: uppercase;
+}
+
+#contact-us .left-form input:first-child{
+  margin-top:0px;
+  }
+
+#contact-us .right-form{
+  float:right;
+  width:48%;
+  xxbackground:green;
+  height:100%;
+  
+}
+
+#contact-us .right-form textarea{
+  height:100%;
+  width:100%;
+  border-radius:6px;
+  padding-top:10px;
+  font-family:Arial;
+  font-size:14pt;
+  font-weight:bold;
+  text-indent: 20px;
+  text-transform: uppercase;
+  color: #777777;
+}
+
+
+/* ======================  footer ========================= */
+#footer{
+  xxheight:90px;
+
+  padding-top: 25px;
+  padding-bottom:0px;
+  xxbackground: green;
+}
+
+
+.social-buttons-footer-block{
+width:80%;
+}
+
+
+.footer-social-menu{
+display: inline-block;
+padding:0px;
+xxmargin-left:-100px;
+}
+
+
+.footer-social-menu li{
+  display:inline;
+float:left;
+margin-left:10px;
+}
+
+
+.copyright{
+  
+  position: absolute;
+  float:left;
+  padding:0px;
+  margin-top:10px;
+  margin-left:-10px;
+  font-family:Arial;
+  font-size: 14px;
+  xxbackground: red;
+}
+
+
+.twitter-footer-butt{
+  width:41px;
+  height:41px;
+background:url(../img/icons/social_buttons/Twitter-footer.png);
+background-repeat: no-repeat;
+  }
+
+.twitter-footer-butt:hover{
+  background:url(../img/icons/social_buttons/Twitter_hover.png);
+}
+
+
+.facebook-footer-butt{
+  width:41px;
+  height:41px;
+background:url(../img/icons/social_buttons/Facebook-footer.png);
+background-repeat: no-repeat;
+  }
+
+.facebook-footer-butt:hover{
+  background:url(../img/icons/social_buttons/Facebook_hover.png);
+}
+
+
+.pinterest-footer-butt{
+  width:41px;
+  height:41px;
+background:url(../img/icons/social_buttons/Pinterest-footer.png);
+background-repeat: no-repeat;
+  }
+
+.pinterest-footer-butt:hover{
+  background:url(../img/icons/social_buttons/Pinterest_hover.png);
+}
+
+
+.google-footer-butt{
+  width:41px;
+  height:41px;
+background:url(../img/icons/social_buttons/Google-footer.png);
+background-repeat: no-repeat;
+  }
+
+.google-footer-butt:hover{
+  background:url(../img/icons/social_buttons/Google_hover.png);
+}
+
+
+
+/* MEDIA 640x480 */
+
+@media screen and (orientation: portrait) and (max-height: 700px) and (max-width: 360px) {
+  .header-info a {
+    left: 20%;
+    background: grey;
+  }
+
+#background-img {
+  height: 100%;
+}
+
+}
+
+
+@media screen and (orientation: landscape) and (max-height: 360px) and (max-width: 700px) {
+  .header-info a {
+    left: 33%;
+    background: yellow;
+  }
+}
+
+
+
+
+/* 1024 */
+
+@media screen and (orientation: portrait) and (min-height: 1023px) and (max-width: 767px) {
+  .header-info a {
+    xxleft: 20%;
+    xxbackground: red;
+  }
+
+#background-img {
+  height: 65%;
+}
+
+}
+
+>>>>>>> master
 
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
