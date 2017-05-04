@@ -1,0 +1,652 @@
+/* ==================== WELCOME SCREEN/ HEADER ======================== */
+
+.main-logo{
+  width:79px;
+  height:28px;
+  background:url(../img/logos/main_logo.png);
+}
+
+
+.main-logo:hover{
+background:url(../img/logos/Logo_hover.png);
+}
+
+
+#navbar-ex-collapse a:hover{
+color: #f7cb39;
+}
+
+/*
+#header {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+*/
+
+
+#main-navbar {
+  background: none !important;
+  border: none;
+  margin-left:0px;
+  padding-left:0px;
+}
+
+
+#main-navbar a {
+  color: white;
+  xxbackground: none;
+   font-family:Arial;
+  font-size: 14pt;
+}
+
+#main-navbar img {
+width:81px;
+height:32px;
+}
+
+
+#main-navbar .active {
+ 
+}
+
+#header{
+  height: 100%;
+  width: 100%;
+  opacity:0.99;
+  background:black;
+  overflow:hidden;
+}
+
+
+#background-img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -10;
+  overflow: hidden;
+  opacity:0.5;
+}
+
+
+
+
+#main-navbar ul {
+  border: none;
+}
+#main-navbar li {
+  background: none;
+}
+.header-info {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  xxbackground: blue;
+  margin-top:100px;
+}
+
+.header-info a {
+display:block;
+color:white;
+font-family:Arial;
+  font-size: 24pt;
+  font-weight:600px;;
+  padding: 12px 0px;
+  background: #fed136;
+  border-radius: 5px;
+  text-transform: uppercase;
+  width:275px;
+  margin-top:30px;
+}
+
+.header-info a:hover {
+  text-decoration:none;
+  cursor: pointer;
+  color:white;
+}
+
+.header-info h3{
+  color:white;
+  font-size: 39.99pt !important;
+  font-family:Arial;
+  font-weight:400;
+  margin-top:30px;
+  padding:0px;
+}
+
+
+.header-info h1{
+  color:white;
+  font-size: 74.99pt !important;
+  font-family:Arial;
+  font-weight:400;
+  margin-top:-10px !important;
+  padding:0px;
+}
+
+
+/* ================================== SERVICES ======================================== */
+
+#services{
+  background:white;
+}
+
+#services p{
+font-family: Times New Roman;
+font-size:16pt;
+margin-top:20px;
+}
+
+
+.services-list{
+  margin-top:80px;
+}
+
+
+.services-list img{
+width:70px;
+XXheight:65px;
+}
+
+.image-container{
+display:inline-block;
+border-style:solid;
+border-width:5px;
+border-color:#fed136;
+border-radius:60px;
+padding:20px;
+margin-left:32%;
+}
+
+.services-list h3{
+  font-family:Arial;
+  font-size: 18pt;
+  font-weight:600;
+margin-top:25px;
+
+}
+
+.services-list p{
+font-family:Times New Roman;
+  font-size: 18pt;
+}
+
+.security-icon{
+width:65px !important;
+height:60px !important;
+padding: 0px 10px;
+}
+
+
+
+
+
+/* -================================== */
+
+
+#gallery{
+background:#f7f7f7;
+}
+
+
+#gallery img{
+
+}
+
+
+#gallery h5{
+font-family:Times New Roman;
+font-size:16px;
+font-weight:100;
+color:#777777;
+}
+
+
+#gallery h2{
+font-family:Arial;
+font-size:18px;
+text-align:center;
+margin:0px;
+}
+
+
+#gallery p{
+font-family:Times New Roman;
+font-size:14px;
+font-weight:100;
+color:#777777;
+text-align:center;
+}
+
+
+#gallery img{
+  width:95%;
+}
+
+
+#gallery .row{
+  margin-bottom: 50px;
+}
+
+
+#gallery .col-md-4{
+  border-style:solid;
+  border-width:0px;
+  border-color:green;
+}
+
+
+#gallery .gallery-item-caption{
+  display: block;
+  background:white;
+  width:94.9%;
+  padding:28px 0px;
+
+}
+
+
+.left-column{
+  xxbackground:red;
+}
+
+.left-column>p,.left-column>h5{
+margin:0px !important;
+padding:0px !important;
+text-align:right;
+}
+
+
+.left-column>p, .right-column>p{
+  font-family:Times New Roman;
+  font-size: 16px;
+  color:color:#777777;
+}
+
+.left-column>h5, .right-column>h5{
+   font-family:Arial;
+  font-size: 18px;
+  font-weight:bold;
+  }
+
+
+
+.right-column{
+  xxbackground:red;
+}
+
+.right-column>p, .right-column>h5{
+margin:0px !important;
+padding:0px !important;
+text-align:left;
+}
+
+
+.vertical-line1{
+  color:transparent; 
+  width:3px; 
+  height:266px; 
+  background:#f1f1f1; 
+  text-align:center
+}
+
+
+.vertical-line2{
+  color:transparent; 
+  width:3px; 
+  height:106px; 
+  background:#f1f1f1; 
+  text-align:center
+}
+
+
+.circle-container{
+  xxbackground:red; 
+  text-align:center; 
+}
+
+.circle{
+  display:inline-block;
+  background:#fed136;
+   
+  padding:10px 0px; 
+  width:175px; 
+  border-style:solid; 
+  border-width:5px; 
+  border-color:#f1f1f1; 
+  border-radius: 150px; 
+
+}
+
+
+.circle p{
+  margin-top:10px;
+text-align:center;
+  font-family: Arial; 
+  font-weight: 400  ;
+  font-size: 18px; 
+  text-transform: uppercase;
+  color:white;
+}
+
+
+#testsection{
+  background: red;
+}
+
+/* ================= Amazing team ======================= */
+#amazing-team{
+  
+  background: #f9f9f9;
+ 
+}
+
+.team-memeber h3{
+font-family:Arial;
+font-size:16pt;
+font-weight:bold;
+}
+
+.team-memeber p{
+font-family:Arial;
+font-size:14pt;
+color:#777777;
+}
+
+.social-buttons-block{
+  display:block; 
+  xxbackground: green;
+}
+
+.social-menu{
+display: inline-block;
+padding:0px;
+xxbackground: red;
+}
+
+.social-menu li:first-child{
+  margin-left:0px;
+}
+
+
+.social-menu li{
+  display: inline;
+  float:left;
+
+  text-decoration: none;
+  list-style:none;
+  margin-left:10px;
+  xxtext-align:center;
+}
+
+.twitter-butt{
+  width:41px;
+  height:41px;
+background:url(../img/icons/social_buttons/Twitter.png);
+background-repeat: no-repeat;
+  }
+
+.twitter-butt:hover{
+  background:url(../img/icons/social_buttons/Twitter_hover.png);
+}
+
+
+.facebook-butt{
+  width:41px;
+  height:41px;
+background:url(../img/icons/social_buttons/Facebook.png);
+background-repeat: no-repeat;
+  }
+
+.facebook-butt:hover{
+  background:url(../img/icons/social_buttons/Facebook_hover.png);
+}
+
+
+.pinterest-butt{
+  width:41px;
+  height:41px;
+background:url(../img/icons/social_buttons/Pinterest.png);
+background-repeat: no-repeat;
+  }
+
+.pinterest-butt:hover{
+  background:url(../img/icons/social_buttons/Pinterest_hover.png);
+}
+
+
+.google-butt{
+  width:41px;
+  height:41px;
+background:url(../img/icons/social_buttons/Google.png);
+background-repeat: no-repeat;
+  }
+
+.google-butt:hover{
+  background:url(../img/icons/social_buttons/Google_hover.png);
+}
+
+
+.our-team-conclusion{
+  display: block;
+  width:100%;
+  text-align: center;
+  xxbackground: red;
+  margin-top:50px;
+}
+
+
+.our-team-conclusion p{
+  display: inline-block;
+  font-family:Times New Roman;
+  font-size:12pt;
+  color: #777777;
+  
+  width:50%;
+  xxbackground: green;
+}
+
+/* =========================== LOGOS ========================== */
+
+.logos-block{
+  display:block;
+}
+
+.logos-block ul{
+display:inline-block;
+padding:0px;
+}
+
+.logos-block li{
+  display: inline;
+  float:left;
+
+  text-decoration: none;
+  list-style:none;
+  margin-left:50px;
+}
+
+
+.logos-block li:first-child{
+  margin-left:0px;
+}
+/* ===================== Contact Us ========================= */
+
+#contact-us{
+  background:#222222;
+  background:url(../img/backgrounds/earth_map.png) #222222;
+  background-repeat: no-repeat;
+  background-position: 100% 120%;
+}
+
+#contact-us h1{
+  font-family:Arial;
+  font-size:39pt;
+  font-weight:bold;
+  text-transform: uppercase;
+  color:white;
+}
+
+#contact-us p{
+  color: #777777;
+   margin-bottom:80px;
+}
+
+.cotntact-us-form-block{
+  height:212px;
+  width:80%;
+  padding:0px;
+
+}
+
+.cotntact-us-form-block .submit-button{
+  background: #fed136;
+  padding:12px 25px;
+  font-family: Arial;
+  font-size: 24pt;
+  font-weight:bold;
+  text-transform: uppercase;
+  color:white;
+  border: none;
+  border-radius:3px;
+  margin-top:30px;
+ margin-bottom:116px;
+  }
+
+#contact-us .left-form{
+  float:left;
+  width:48%;
+  xxbackground: red;
+}
+
+#contact-us .left-form input{
+  width:100%;
+  height:50px;
+  margin-top:30px;
+  border-radius:6px;
+
+  font-family:Arial;
+  font-size:14pt;
+  font-weight:bold;
+  color: #777777;
+  text-indent: 20px;
+  text-transform: uppercase;
+}
+
+#contact-us .left-form input:first-child{
+  margin-top:0px;
+  }
+
+#contact-us .right-form{
+  float:right;
+  width:48%;
+  xxbackground:green;
+  height:100%;
+  
+}
+
+#contact-us .right-form textarea{
+  height:100%;
+  width:100%;
+  border-radius:6px;
+  padding-top:10px;
+  font-family:Arial;
+  font-size:14pt;
+  font-weight:bold;
+  text-indent: 20px;
+  text-transform: uppercase;
+  color: #777777;
+}
+
+
+/* ======================  footer ========================= */
+#footer{
+  xxheight:90px;
+
+  padding-top: 25px;
+  padding-bottom:0px;
+  xxbackground: green;
+}
+
+
+.social-buttons-footer-block{
+width:80%;
+}
+
+
+.footer-social-menu{
+display: inline-block;
+padding:0px;
+xxmargin-left:-100px;
+}
+
+
+.footer-social-menu li{
+  display:inline;
+float:left;
+margin-left:10px;
+}
+
+
+.copyright{
+  
+  position: absolute;
+  float:left;
+  padding:0px;
+  margin-top:10px;
+  margin-left:-10px;
+  font-family:Arial;
+  font-size: 14px;
+  xxbackground: red;
+}
+
+
+.twitter-footer-butt{
+  width:41px;
+  height:41px;
+background:url(../img/icons/social_buttons/Twitter-footer.png);
+background-repeat: no-repeat;
+  }
+
+.twitter-footer-butt:hover{
+  background:url(../img/icons/social_buttons/Twitter_hover.png);
+}
+
+
+.facebook-footer-butt{
+  width:41px;
+  height:41px;
+background:url(../img/icons/social_buttons/Facebook-footer.png);
+background-repeat: no-repeat;
+  }
+
+.facebook-footer-butt:hover{
+  background:url(../img/icons/social_buttons/Facebook_hover.png);
+}
+
+
+.pinterest-footer-butt{
+  width:41px;
+  height:41px;
+background:url(../img/icons/social_buttons/Pinterest-footer.png);
+background-repeat: no-repeat;
+  }
+
+.pinterest-footer-butt:hover{
+  background:url(../img/icons/social_buttons/Pinterest_hover.png);
+}
+
+
+.google-footer-butt{
+  width:41px;
+  height:41px;
+background:url(../img/icons/social_buttons/Google-footer.png);
+background-repeat: no-repeat;
+  }
+
+.google-footer-butt:hover{
+  background:url(../img/icons/social_buttons/Google_hover.png);
+}
+
+
