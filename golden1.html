@@ -2,14 +2,17 @@
     <title>goldenone.html</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="sys_js/jquery-2.2.3.min.js"></script>
+    <script type="text/javascript" src="sys_js/bootstrap.min.js"></script>
+    <link href="sys_css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="css/custom_pc.css" rel="stylesheet" type="text/css">
+    <link href="css/custom_mobile.css" rel="stylesheet" type="text/css">
   </head>
 
   <body>
     <div class="section" id="header">
+
       <img src="img/backgrounds/home_background.jpg" id="background-img">
       <div class="container">
         <div class="row">
@@ -23,7 +26,10 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
+                  <!--
                   <a class="navbar-brand" href="#"><img height="20" alt="Brand" src="img/logos/main_logo.png"></a>
+                  -->
+                  <a class="navbar-brand" href="#"><div class = "main-logo"></div></a>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-ex-collapse">
                   <ul class="nav navbar-nav navbar-right">
@@ -54,7 +60,7 @@
         <div class="header-info">
           <h3 class="center text-center text-warning" contenteditable="true">Welcome to our Studio!</h3>
           <h1 class="center text-center text-warning">It's nice to meet you!</h1>
-          <a href="">tell me more</a>
+          <a class = "center text-center center-block" href="">tell me more</a>
         </div>
       </div>
 
@@ -73,24 +79,25 @@
 
         <div class="row services-list">
           <div class="col-md-4">
-          <div class = "image-container">
-            <img src="img/icons/Icon-Basket.png" class="center-block img-responsive">
-            </div>
+          
+          <div class = "image-container center center-block ">
+          <img src="img/icons/Icon-Basket.png">
+          </div>
             <h3 class="text-center">E-Comerce</h3>
             <p class="text-center">Proin iaculis purus consequat sem cure 
 digni ssim. Donec porttitora entum suscipit </p>
           </div>
           <div class="col-md-4">
-            <div class = "image-container">
-            <img src="img/icons/Icon-Laptop.png" class="center-block img-responsive">
+            <div class = "image-container center center-block">
+            <img src="img/icons/Icon-Laptop.png">
             </div>
             <h3 class="text-center">Responsive Web</h3>
             <p class="text-center">Proin iaculis purus consequat sem cure 
 digni ssim. Donec porttitora entum suscipit </p>
           </div>
           <div class="col-md-4">
-            <div class = "image-container">
-            <img src="img/icons/Icon-Locked.png" class="center-block img-responsive security-icon">
+            <div class = "image-container center center-block">
+            <img src="img/icons/Icon-Locked.png" class= "security-icon">
             </div>
             <h3 class="text-center">Web Security</h3>
             <p class="text-center">Proin iaculis purus consequat sem cure 
@@ -110,38 +117,52 @@ digni ssim. Donec porttitora entum suscipit </p>
             <h5 class="text-center">Proin iaculis purus consequat sem cure</h5>
           </div>
         </div>
+
         <div class="row">
           <div class="col-md-4">
             <a><img src="img/gallery/portfolio_item1.jpg" class="img-responsive center-block"></a>
+            <div class = "gallery-item-caption center center-block">
             <h2>Ebony & Ivory</h2>
             <p>Branding</p>
+            </div>
           </div>
           <div class="col-md-4">
             <a><img src="img/gallery/portfolio_item2.jpg" class="img-responsive center-block"></a>
+            <div class = "gallery-item-caption center center-block">
             <h2>Smart Stationary</h2>
             <p>Print Design</p>
+            </div>
           </div>
           <div class="col-md-4">
             <a><img src="img/gallery/portfolio_item3.jpg" class="img-responsive center-block"></a>
+            <div class = "gallery-item-caption center center-block">
             <h2>Clever Poster</h2>
             <p>Print Design</p>
+            </div>
           </div>
         </div>
+
         <div class="row">
           <div class="col-md-4">
             <a><img src="img/gallery/portfolio_item4.jpg" class="img-responsive center-block"></a>
+            <div class = "gallery-item-caption center center-block">
             <h2>Vynil Record</h2>
             <p>Product mocK-Up</p>
           </div>
+          </div>
           <div class="col-md-4">
             <a><img src="img/gallery/portfolio_item5.jpg" class="img-responsive center-block"></a>
+            <div class = "gallery-item-caption center center-block">
             <h2>Treehouse Template</h2>
             <p>Web-Design</p>
+            </div>
           </div>
           <div class="col-md-4">
             <a><img src="img/gallery/portfolio_item6.jpg" class="img-responsive center-block "></a>
+            <div class = "gallery-item-caption center center-block">
             <h2>Burned Logo</h2>
             <p>Branding</p>
+           </div>
           </div>
         </div>
       </div>
@@ -149,53 +170,58 @@ digni ssim. Donec porttitora entum suscipit </p>
 
 
 
+
+
 <div class="section" id="aboutus">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h1 class="text-center">ABOUT US</h1>
-            <h5 class="text-center">Proin iaculis purus consequat sem cure</h5>
-          </div>
-        </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="text-center">ABOUT US</h1>
+        <h5 class="text-center">Proin iaculis purus consequat sem cure</h5>
+      </div>
+    </div>
 
-        <div class="row">
-          <div class="col-md-4 left-column">
-            <h5>JULY 2010</h5>
-            <h5>Our Humble BEginnings</h5>
-            <p>Proin iaculis purus consequat sem cure 
+    <div class="row">
+      <div class="col-md-4 left-column">
+        <h5>JULY 2010</h5>
+        <h5>Our Humble BEginnings</h5>
+        <p>Proin iaculis purus consequat sem cure 
 digni ssim. Donec porttitora entum suscipit 
 aenean rhoncus posuere odio in tincidunt. Proin 
 iaculis purus consequat sem cure digni 
 ssim. Donec porttitora entum suscipit</p>
-          </div>
-          <div class="col-md-4">
-            <a><img src="img/menu/about_image1.png" class="img-responsive center-block"></a>
-          </div>
-          <div class="col-md-4">
+      </div>
+
+      <div class="col-md-4">
+          <a><img src="img/menu/about_image1.png" class="img-responsive center-block"></a>
+      </div>
+
+      <div class="col-md-4">
            
-          </div>
+      </div>
 
-<div class = "center center-block vertical-line1" >.</div>
-        </div>
+       <div class = "center center-block vertical-line1" >.</div>
+    </div>
 
 
-        <div class="row">
-          <div class="col-md-4 ">
+    <div class="row">
+      <div class="col-md-4 ">
+      </div>
 
-          </div>
-          <div class="col-md-4">
-            <a><img src="img/menu/about_image1.png" class="img-responsive center-block"></a>
-          </div>
-          <div class="col-md-4 right-column">
-                       <h5>JULY 2010</h5>
-            <h5>Our Humble BEginnings</h5>
-            <p>Proin iaculis purus consequat sem cure 
+      <div class="col-md-4">
+        <a><img src="img/menu/about_image1.png" class="img-responsive center-block"></a>
+      </div>
+
+      <div class="col-md-4 right-column">
+        <h5>JULY 2010</h5>
+        <h5>Our Humble BEginnings</h5>
+        <p>Proin iaculis purus consequat sem cure 
 digni ssim. Donec porttitora entum suscipit 
 aenean rhoncus posuere odio in tincidunt. Proin 
 iaculis purus consequat sem cure digni 
 ssim. Donec porttitora entum suscipit</p>
-          </div>
-        </div>
+      </div>
+    </div>
 
 <div class = "center center-block vertical-line2" >.</div>
 
@@ -209,11 +235,12 @@ aenean rhoncus posuere odio in tincidunt. Proin
 iaculis purus consequat sem cure digni 
 ssim. Donec porttitora entum suscipit</p>
           </div>
+
           <div class="col-md-4">
             <a><img src="img/menu/about_image1.png" class="img-responsive center-block"></a>
           </div>
+
           <div class="col-md-4">
-           
           </div>
         </div>
 
@@ -221,11 +248,12 @@ ssim. Donec porttitora entum suscipit</p>
 
         <div class="row">
           <div class="col-md-4 ">
-
           </div>
+
           <div class="col-md-4">
             <a><img src="img/menu/about_image1.png" class="img-responsive center-block"></a>
           </div>
+
           <div class="col-md-4 right-column">
                        <h5>JULY 2010</h5>
             <h5>Our Humble BEginnings</h5>
@@ -257,49 +285,95 @@ ssim. Donec porttitora entum suscipit</p>
           </div>
         </div>
 
-<div class = "center center-block vertical-line2" >.</div>
-
-<div class = "circle-container">
-<div class="circle">
-<p>Our</p>
-<p>story</p>
-<p>continues</p>
-<p>...</p>
-<div>
+<div class = "center center-block vertical-line2" >
+.
 </div>
 
-      </div><!-- /container -->
-    </div><!-- /section -->
-
-
-
-    <div class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h1 class="text-center" id="amazing-team">Our Amazing Team</h1>
-            <p class="text-center">We are a group of skilled individuals.</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4">
-            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/user_placeholder.png" class="center-block img-circle img-responsive">
-            <h3 class="text-center">John Doe</h3>
-            <p class="text-center">Developer</p>
-          </div>
-          <div class="col-md-4">
-            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/user_placeholder.png" class="center-block img-circle img-responsive">
-            <h3 class="text-center">John Doe</h3>
-            <p class="text-center">Developer</p>
-          </div>
-          <div class="col-md-4">
-            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/user_placeholder.png" class="center-block img-circle img-responsive">
-            <h3 class="text-center">John Doe</h3>
-            <p class="text-center">Developer</p>
-          </div>
-        </div>
+    <div class = "circle-container">
+      <div class="circle">
+         <p>Our</p>
+         <p>story</p>
+         <p>continues</p>
+         <p>...</p>
       </div>
     </div>
+
+  </div><!-- /container -->
+</div><!-- /section -->
+
+
+<!--
+<div class = "container-fluid" id = "testsection">
+123
+</div>
+-->
+
+
+<div class="section" id = "amazing-team">
+  <div class="container">
+
+        <div class="row">
+          <div class="col-md-12">.
+            <h1 class="text-center">Our Amazing Team</h1>
+            <p class="text-center">We are a group of skilled individuals.</p>
+          </div>
+        </div><!-- row-->
+
+        <div class="row">
+          <div class="col-md-4 team-memeber">
+            <img src="img/Image_Container.png" class="center-block img-circle img-responsive">
+            <h3 class="text-center">Kimberly Thompson</h3>
+            <p class="text-center">Marketer</p>
+            
+            <div class = "center center-block text-center social-buttons-block">
+              <ul class = "social-menu">
+                <li class = "twitter-butt"></a></li>
+                <li class = "facebook-butt"><a href = "#"></a></li>
+                <li class = "pinterest-butt"><a href = "#"></a></li>
+              </ul>
+            </div>
+          </div>
+
+
+
+          <div class="col-md-4 team-memeber">
+            <img src="img/Image_Container.png" class="center-block img-circle img-responsive">
+            <h3 class="text-center">Rico Masimo</h3>
+            <p class="text-center">Coder</p>
+            <div class = "center center-block text-center social-buttons-block">
+              <ul class = "social-menu">
+                <li class = "twitter-butt"></a></li>
+                <li class = "facebook-butt"><a href = "#"></a></li>
+                <li class = "google-butt"><a href = "#"></a></li>
+              </ul>
+            </div>
+          </div>
+
+
+          <div class="col-md-4 team-memeber">
+            <img src="img/Image_Container.png" class="center-block img-circle img-responsive">
+            <h3 class="text-center">Uku Mason</h3>
+            <p class="text-center">Grapgic Designer</p>
+            <div class = "center center-block text-center social-buttons-block">
+              <ul class = "social-menu">
+                <li class = "facebook-butt"><a href = "#"></a></li>
+                <li class = "pinterest-butt"><a href = "#"></a></li>
+              </ul>
+            </div>
+          </div>
+
+        
+
+            <div class ="row">
+              <div class = "col-md-12 our-team-conclusion">
+                <p class = "">Proin iaculis purus consequat sem cure  digni ssim donec porttitora entum suscipit  
+aenean rhoncus posuere odio in tincidunt proin iaculis.</p>
+              </div>
+            </div>
+
+  </div>
+  </div>
+</div><!--section-->
 
 
 
@@ -308,48 +382,77 @@ ssim. Donec porttitora entum suscipit</p>
 
     <div class="section" id="logos">
       <div class="container">
+
         <div class="row">
-          <div class="col-md-3"></div>
-          <div class="col-md-3"></div>
-          <div class="col-md-3"></div>
-          <div class="col-md-3"></div>
+          <div class = "center text-center logos-block">
+        <ul>
+        <li><a href = ""><img src = "img/logos/Envato_logo.png"></a></li>
+        <li><a href = ""><img src = "img/logos/WordPress_logo.png"></a></li>
+        <li><a href = ""><img src = "img/logos/Tuts_logo.png"></a></li>
+        <li><a href = ""><img src = "img/logos/Microlancer_logo.png"></a></li>
+        </ul>
+          </div>
         </div>
       </div>
     </div>
-    <footer class="section section-primary" id="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6">
-            <h1>Footer header</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,
-              <br>sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
-              <br>Ut enim ad minim veniam, quis nostrud</p>
-          </div>
-          <div class="col-sm-6">
-            <p class="text-info text-right">
-              <br>
-              <br>
-            </p>
-            <div class="row">
-              <div class="col-md-12 hidden-lg hidden-md hidden-sm text-left">
-                <a href="#"><i class="fa fa-3x fa-fw fa-instagram text-inverse"></i></a>
-                <a href="#"><i class="fa fa-3x fa-fw fa-twitter text-inverse"></i></a>
-                <a href="#"><i class="fa fa-3x fa-fw fa-facebook text-inverse"></i></a>
-                <a href="#"><i class="fa fa-3x fa-fw fa-github text-inverse"></i></a>
-              </div>
+
+
+
+
+<div class="section" id="contact-us">
+  <div class="container">
+
+    <div class="col-md-12">.
+            <h1 class="text-center">Contact Us</h1>
+            <p class="text-center">Proin iaculis purus consequat sem cure.</p>
+    </div>
+
+      <div class="row">
+        <div class = "center text-center center-block cotntact-us-form-block">
+          <form>
+            <div class ="left-form">
+        <input type = "text" name = "name" placeholder="Your name: *">
+        <input type = "email" name = "email" placeholder = "Your e-mail: *">
+        <input type = "text" name = "subject" placeholder = "Subect: *  ">
             </div>
-            <div class="row">
-              <div class="col-md-12 hidden-xs text-right">
-                <a href="#"><i class="fa fa-3x fa-fw fa-instagram text-inverse"></i></a>
-                <a href="#"><i class="fa fa-3x fa-fw fa-twitter text-inverse"></i></a>
-                <a href="#"><i class="fa fa-3x fa-fw fa-facebook text-inverse"></i></a>
-                <a href="#"><i class="fa fa-3x fa-fw fa-github text-inverse"></i></a>
+
+              <div class = "right-form">
+               <textarea name = "message" placeholder="Your message: *" ></textarea>
               </div>
-            </div>
-          </div>
+
+                <div class = "row">
+                  <div class = "col-md-12">
+                    <input class = "submit-button" type = "submit" value = "Send message">
+                  </div>
+                </div>
+          </form>
         </div>
       </div>
-    </footer>
+  </div>
+</div>
+
+
+
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class = "col-md-12">
+        <div class = "center center-block text-center social-buttons-footer-block">
+          <div class = "copyright">
+            © Copyright 2014 FreebiesXpress.com
+          </div> 
+              <ul class = "footer-social-menu">
+                <li class = "twitter-footer-butt"><a href = "#"></a></li>
+                <li class = "facebook-footer-butt"><a href = "#"></a></li>
+                <li class = "pinterest-footer-butt"><a href = "#"></a></li>
+                <li class = "google-footer-butt"><a href = "#"></a></li>
+              </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
   
 
-</body></html>
+</body>
+</html>
