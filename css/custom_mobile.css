@@ -1,13 +1,258 @@
+html,body{
+  margin:0px;
+  padding:0px;
+  overflow-x: hidden;
+}
 
-
-/* MEDIA 640x480 */
-
-@media screen and (orientation: portrait) and (min-width: 320px) and (max-width:767px){
-
+@media screen and (min-width: 320px) and (max-width:479px){
 /* === HEADER === */
-
 #background-img {
   width: auto;
+  overflow: hidden;
+}
+
+.header-info {
+margin-top:20%;
+}
+
+.header-info h3{
+ font-size: 7vw !important;
+}
+
+.header-info h1{
+  font-size: 12vw !important;
+}
+
+.header-info a {
+  font-size: 7vw;
+}
+
+/* === SERVICES === */ 
+.services-list{
+  margin-top:20px;
+}
+
+.image-container{
+margin-top:50px;
+}
+
+
+/* ==== About us== */
+#aboutus{
+  display: none !important;
+}
+
+#aboutus-mobile{
+  display: block !important;
+}
+
+
+
+/* === LOGOS === */
+.logos-block li{
+  display: block;
+  float:none;
+  margin-left:0px;
+  margin-top:30px;
+}
+
+.logos-block li:first-child{
+  margin-top:0px;
+}
+
+  /* === CONTCUCT US === */
+ #contact-us{
+  background-repeat: repeat-y;
+  background-position: 20% -490%;
+} 
+
+.cotntact-us-form-block{
+  height:auto;
+}
+
+#contact-us h1{
+  margin-top:0px;
+  font-size:25pt;
+}  
+
+#contact-us .left-form{
+  float:none;
+  width:100%;
+}
+
+#contact-us p{
+  color: #777777;
+   margin-bottom:30px;
+}
+
+#contact-us .left-form input{
+  margin-top:20px;
+}
+
+#contact-us .right-form{
+  float:none;
+  width:100%;
+  height:auto;
+}
+
+#contact-us .right-form textarea{
+  margin-top:20px;
+  height:30%;
+}
+
+.cotntact-us-form-block .submit-button{
+  background: #fed136;
+  padding:12px 25px;
+  font-family: Arial;
+  font-size: 17pt;
+  margin-top:30px;
+  margin-bottom:30px;
+  }
+
+/* === FOOTER == */
+.copyright{
+float:none;
+  position: relative;
+  margin-top:10px;
+  margin-bottom:15px;
+  text-align: center;
+}
+
+}
+
+
+
+
+@media screen and (min-width: 480px) and (max-width:599px){
+
+/* === HEADER === */
+#background-img {
+  width: 100%;
+  overflow: hidden;
+}
+
+
+.header-info {
+margin-top:-10%;
+}
+
+.header-info h3{
+ font-size: 5vw !important;
+}
+
+
+.header-info h1{
+  font-size: 7vw !important;
+}
+
+
+.header-info a {
+  font-size: 3vw;
+  margin-top:-3px;
+}
+
+/* === SERVICES === */ 
+.services-list{
+  margin-top:20px;
+}
+
+.image-container{
+margin-top:50px;
+}
+
+
+/* ==== About us== */
+
+#aboutus{
+  display: none !important;
+}
+
+#aboutus-mobile{
+  display: block !important;
+}
+
+
+
+/* === LOGOS === */
+.logos-block li{
+  display: block;
+  float:none;
+  margin-left:0px;
+  margin-top:30px;
+}
+
+.logos-block li:first-child{
+  margin-top:0px;
+}
+
+  /* === CONTCUCT US === */
+ #contact-us{
+  background-repeat: repeat-y;
+  background-position: 20% -490%;
+} 
+
+.cotntact-us-form-block{
+  height:auto;
+}
+
+#contact-us h1{
+  margin-top:0px;
+  font-size:25pt;
+}  
+
+#contact-us .left-form{
+  float:none;
+  width:100%;
+}
+
+#contact-us p{
+  color: #777777;
+   margin-bottom:30px;
+}
+
+#contact-us .left-form input{
+  margin-top:20px;
+}
+
+#contact-us .right-form{
+  float:none;
+  width:100%;
+  height:auto;
+}
+
+#contact-us .right-form textarea{
+  margin-top:20px;
+  height:30%;
+}
+
+.cotntact-us-form-block .submit-button{
+  background: #fed136;
+  padding:12px 25px;
+  font-family: Arial;
+  font-size: 17pt;
+  
+  margin-top:30px;
+ margin-bottom:30px;
+  }
+
+/* === FOOTER == */
+.copyright{
+float:none;
+  position: relative;
+  margin-top:10px;
+  margin-bottom:15px;
+  text-align: center;
+}
+
+}
+
+
+
+@media screen and (min-width: 600px) and (max-width:710px){
+
+/* === HEADER === */
+#background-img {
+  width: 100%;
   overflow: hidden;
 }
 
@@ -22,12 +267,12 @@ margin-top:20%;
 
 
 .header-info h1{
-  font-size: 12vw !important;
+  font-size: 9vw !important;
 }
 
 
 .header-info a {
-  font-size: 7vw;
+  font-size: 4vw;
 }
 
 /* === SERVICES === */ 
@@ -36,9 +281,18 @@ margin-top:20%;
 }
 
 .image-container{
-
 margin-top:50px;
+}
 
+
+/* ==== About us== */
+
+#aboutus{
+  display: none !important;
+}
+
+#aboutus-mobile{
+  display: block !important;
 }
 
 /* === LOGOS === */
@@ -51,7 +305,132 @@ margin-top:50px;
 
 .logos-block li:first-child{
   margin-top:0px;
-  xxmargin-left:50px;
+}
+
+
+  /* === CONTCUCT US === */
+ #contact-us{
+  background-repeat: repeat-y;
+  background-position: 20% -490%;
+} 
+
+.cotntact-us-form-block{
+  height:auto;
+}
+
+#contact-us h1{
+  margin-top:0px;
+  font-size:25pt;
+}  
+
+#contact-us .left-form{
+  float:none;
+  width:100%;
+}
+
+#contact-us p{
+  color: #777777;
+  margin-bottom:30px;
+}
+
+#contact-us .left-form input{
+  margin-top:20px;
+}
+
+#contact-us .right-form{
+  float:none;
+  width:100%;
+  height:auto;
+}
+
+#contact-us .right-form textarea{
+  margin-top:20px;
+  height:30%;
+}
+
+.cotntact-us-form-block .submit-button{
+  background: #fed136;
+  padding:12px 25px;
+  font-family: Arial;
+  font-size: 17pt;
+  margin-top:30px;
+  margin-bottom:30px;
+  }
+
+/* === FOOTER == */
+.copyright{
+float:none;
+  position: relative;
+  margin-top:10px;
+  margin-bottom:15px;
+  text-align: center;
+}
+
+}
+
+
+
+
+
+@media screen and (min-width: 711px) and (max-width:1023px){
+
+/* === HEADER === */
+#background-img {
+  width: auto;
+  overflow: hidden;
+}
+
+
+.header-info {
+margin-top:-30px;
+}
+
+.header-info h3{
+ font-size: 7vw !important;
+}
+
+
+.header-info h1{
+  font-size: 9vw !important;
+}
+
+
+.header-info a {
+  font-size: 4vw;
+}
+
+/* === SERVICES === */ 
+.services-list{
+  margin-top:20px;
+}
+
+.image-container{
+margin-top:50px;
+}
+
+
+/* ==== About us== */
+
+#aboutus{
+  display: none !important;
+}
+
+#aboutus-mobile{
+  display: block !important;
+}
+
+
+
+/* === LOGOS === */
+.logos-block li{
+  display: block;
+  float:none;
+  margin-left:0px;
+  margin-top:30px;
+}
+
+.logos-block li:first-child{
+  margin-top:0px;
 }
 
 
@@ -89,7 +468,6 @@ margin-top:50px;
 #contact-us .right-form{
   float:none;
   width:100%;
-  xxbackground:green;
   height:auto;
 }
 
@@ -103,9 +481,8 @@ margin-top:50px;
   padding:12px 25px;
   font-family: Arial;
   font-size: 17pt;
-  
   margin-top:30px;
- margin-bottom:30px;
+  margin-bottom:30px;
   }
 
 /* === FOOTER == */
@@ -117,25 +494,24 @@ float:none;
   text-align: center;
 }
 
-
 }
 
 
 
 
-/*  =============== MEDIA  LANDSCAPE 360  ========================== */
 
-@media screen and (orientation: landscape) and (min-width: 480px) and (max-width: 700px) {
-  /* === HEADER === */
 
+@media screen and (min-width: 1024px) and (max-width:1279px){
+
+/* === HEADER === */
 #background-img {
-  width: auto;
+  width: 100%;
   overflow: hidden;
 }
 
 
 .header-info {
-margin-top:-0.7%;
+margin-top:-3.7%;
 }
 
 .header-info h3{
@@ -149,7 +525,7 @@ margin-top:-0.7%;
 
 
 .header-info a {
-  font-size: 4vw;
+  font-size: 3vw;
 }
 
 
@@ -168,13 +544,16 @@ margin-top:50px;
 width: 90px;
 height:90px;
 padding:20px;
-
-xxbackground:green;
 }
 
+/* ==== About us== */
 
-.services-list p{
-  xxmargin-bottom:60px;
+#aboutus{
+  display: block !important;
+}
+
+#aboutus-mobile{
+  display: none !important;
 }
 
 /* === LOGOS === */
@@ -187,60 +566,92 @@ xxbackground:green;
 
 .logos-block li:first-child{
   margin-top:0px;
-  xxmargin-left:50px;
 }
 
 
   /* === CONTCUCT US === */
- #contact-us{
-  background-repeat: repeat-y;
-  background-position: 20% -490%;
-} 
-
-.cotntact-us-form-block{
-  height:auto;
+#contact-us{
+  background:#222222;
+  background:url(../img/backgrounds/earth_map.png) #222222;
+  background-repeat: no-repeat;
+  background-position: 100% 120%;
 }
 
 #contact-us h1{
-  margin-top:0px;
-  font-size:25pt;
-}  
-
-#contact-us .left-form{
-  float:none;
-  width:100%;
+  font-family:Arial;
+  font-size:39pt;
+  font-weight:bold;
+  text-transform: uppercase;
+  color:white;
 }
 
 #contact-us p{
   color: #777777;
-   margin-bottom:30px;
+   margin-bottom:80px;
 }
 
-#contact-us .left-form input{
-  margin-top:20px;
-}
+.cotntact-us-form-block{
+  height:212px;
+  width:80%;
+  padding:0px;
 
-#contact-us .right-form{
-  float:none;
-  width:100%;
-  xxbackground:green;
-  height:auto;
-}
-
-#contact-us .right-form textarea{
-  margin-top:20px;
-  height:30%;
 }
 
 .cotntact-us-form-block .submit-button{
   background: #fed136;
   padding:12px 25px;
   font-family: Arial;
-  font-size: 17pt;
-  
+  font-size: 24pt;
+  font-weight:bold;
+  text-transform: uppercase;
+  color:white;
+  border: none;
+  border-radius:3px;
   margin-top:30px;
- margin-bottom:30px;
+ margin-bottom:116px;
   }
+
+#contact-us .left-form{
+  float:left;
+  width:48%;
+}
+
+#contact-us .left-form input{
+  width:100%;
+  height:50px;
+  margin-top:30px;
+  border-radius:6px;
+  font-family:Arial;
+  font-size:14pt;
+  font-weight:bold;
+  color: #777777;
+  text-indent: 20px;
+  text-transform: uppercase;
+}
+
+#contact-us .left-form input:first-child{
+  margin-top:0px;
+  }
+
+#contact-us .right-form{
+  float:right;
+  width:48%;
+  height:100%;
+}
+
+#contact-us .right-form textarea{
+  height:100%;
+  width:100%;
+  border-radius:6px;
+  padding-top:10px;
+  font-family:Arial;
+  font-size:14pt;
+  font-weight:bold;
+  text-indent: 20px;
+  text-transform: uppercase;
+  color: #777777;
+}
+
 
 /* === FOOTER == */
 .copyright{
@@ -254,136 +665,7 @@ float:none;
 }
 
 
-@media screen and (orientation: landscape) and (min-width: 701px) and (max-width: 1024px) {
-  /* === HEADER === */
 
-#background-img {
-  width: auto;
-  overflow: hidden;
-}
-
-
-.header-info {
-margin-top:-0.7%;
-}
-
-.header-info h3{
- font-size: 5vw !important;
-}
-
-
-.header-info h1{
-  font-size: 8vw !important;
-}
-
-
-.header-info a {
-  font-size: 4vw;
-}
-
-
-/* === SERVICES === */ 
-.services-list{
-  margin-top:20px;
-}
-
-.services-list img{
-width:100%;
-}
-
-.image-container{
-display:block;
-margin-top:50px;
-width: 90px;
-height:90px;
-padding:20px;
-
-xxbackground:green;
-}
-
-
-.services-list p{
-  xxmargin-bottom:60px;
-}
-
-/* === LOGOS === */
-
-.logos-block{
-	background: red;
-	}
-
-.logos-block li{
-  display: inline-block;
-  float:none;
-  margin-left:0px;
-  margin-top:30px;
-}
-
-.logos-block li:first-child{
-  margin-top:0px;
-  xxmargin-left:50px;
-}
-
-
-  /* === CONTCUCT US === */
- #contact-us{
-  background-repeat: repeat-y;
-  background-position: 20% -490%;
-} 
-
-.cotntact-us-form-block{
-  height:auto;
-}
-
-#contact-us h1{
-  margin-top:0px;
-  font-size:25pt;
-}  
-
-#contact-us .left-form{
-  float:none;
-  width:100%;
-}
-
-#contact-us p{
-  color: #777777;
-   margin-bottom:30px;
-}
-
-#contact-us .left-form input{
-  margin-top:20px;
-}
-
-#contact-us .right-form{
-  float:none;
-  width:100%;
-  xxbackground:green;
-  height:auto;
-}
-
-#contact-us .right-form textarea{
-  margin-top:20px;
-  height:30%;
-}
-
-.cotntact-us-form-block .submit-button{
-  background: #fed136;
-  padding:12px 25px;
-  font-family: Arial;
-  font-size: 17pt;
+@media screen and (min-width: 1280px) and (max-width:1300px){
   
-  margin-top:30px;
- margin-bottom:30px;
-  }
-
-/* === FOOTER == */
-.copyright{
-float:none;
-  position: relative;
-  margin-top:10px;
-  margin-bottom:15px;
-  text-align: center;
 }
-
-}
-
